@@ -273,7 +273,7 @@ header {
     background-color: var(--color-background);
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 30px 30px  rgb(0, 0, 0);
     transition: var(--transition);
     position: relative;
 }
@@ -309,11 +309,11 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 0 1rem 1rem;
+   
 }
 
 .btn-project, .btn-github {
     display: inline-block;
-
     padding: 0.5rem 1rem;
     border-radius: 25px;
     font-weight: 500;
@@ -331,6 +331,7 @@ header {
 .btn-github {
     background-color: #ffffff;
     color: var(--color-background);
+
     
 }
 
