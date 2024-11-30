@@ -20,7 +20,7 @@ body {
 header {
     background-color: rgba(52, 152, 219, 0.9);
     color: white;
-    padding: 1rem 2rem;
+    padding: 5px 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -248,14 +248,18 @@ header {
 
 .projects h2 {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    /* text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 0px;
     font-size: 2.5rem;
     color: var(--color-primary);
     text-align: center;
     margin-bottom: 3rem;
     color: #4c4c4c;
     padding: 10px;
-    text-shadow: 4px 4px 7px rgba(57, 56, 56, 0.852);
+    text-shadow: 4px 4px 7px rgba(57, 56, 56, 0.852); */
 }
 
 
@@ -374,7 +378,7 @@ footer .btn-github {
 
 .hero-content {
 
-    margin-bottom: 3rem;
+    margin-bottom: 0px;
     color: #302f2d;
     text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.5);
 }
@@ -400,3 +404,4 @@ footer {
     padding: 1rem;
     margin-top: auto;
 }
+
