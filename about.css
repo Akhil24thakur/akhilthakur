@@ -32,12 +32,14 @@ header {
     font-size: 1.8rem;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
 }
 
 .nav {
     display: flex;
     gap: 1.5rem;
     align-items: center;
+    margin-right: 10px;
 }
 
 .nav a {
